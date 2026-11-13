@@ -11,9 +11,9 @@ public class Main {
     // RETO 1
     public static void darPista(int intento, int secreto) {
         if (intento < secreto) {
-            System.out.println("¡Más alto!");
+            System.out.println("Pista: el número secreto es MAYOR que " + intento + ".");
         } else {
-            System.out.println("¡Más bajo!");
+            System.out.println("Pista: el número secreto es MENOR que " + intento + ".");
         }
     }
 
@@ -31,18 +31,18 @@ public class Main {
 
         int secreto = (int) (Math.random() * 10) + 1;
         int intento = 0;
-        int vidas = 0;
+        int totalIntentos = 0;
 
         // RETO 2
         while (!esCorrecto(intento, secreto)) {
             System.out.print("Escribe un número del 1 al 10: ");
             intento = teclado.nextInt();
-            vidas++;
+            totalIntentos++;
             if (!esCorrecto(intento, secreto)) {
                 darPista(intento, secreto);
             }
         }
-        System.out.println("¡Adivinaste, " + nombre + "! Lo lograste en " + vidas + " intentos.");
+        System.out.println("¡Adivinaste, " + nombre + "! Lo lograste en " + totalIntentos + " intentos.");
 
         teclado.close();
     }
