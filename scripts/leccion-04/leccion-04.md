@@ -113,37 +113,65 @@ No necesitas memorizarlo: puedes copiar esta línea cada vez que la necesites.
 
 ## Práctica guiada (4:45 – 7:15)
 
-Abre el enlace del ejercicio en la descripción, en el editor que prefieras. Ya tiene el método `saludar`, el Scanner y el número secreto. Completa los dos retos:
+Ahora vas a terminar el juego de adivinanzas. Abre el enlace del ejercicio en la descripción del video, en el editor que prefieras: Replit, JDoodle u OnlineGDB. Si usas JDoodle, recuerda activar el modo **Interactive** para poder escribir en la consola.
 
-1. **Reto 1**: crea un método `darPista` que reciba el intento y el secreto, y muestre "¡Más alto!" o "¡Más bajo!".
-2. **Reto 2**: con un `while`, pide números hasta que el jugador adivine.
+### ¿Qué trae ya el ejercicio?
 
-La solución:
+El archivo no empieza vacío. Ya tiene listas estas piezas, que viste en la lección:
 
-```java
-public static void darPista(int intento, int secreto) {
-    if (intento < secreto) {
-        System.out.println("¡Más alto!");
-    } else {
-        System.out.println("¡Más bajo!");
-    }
-}
+- El método `saludar`, que da la bienvenida al jugador.
+- El método `esCorrecto`, que devuelve `true` si el número del jugador es igual al secreto.
+- El Scanner llamado `teclado`, que pregunta el nombre del jugador.
+- El número secreto, elegido al azar del 1 al 10.
+- Dos variables que vas a usar:
+  - `intento`: guarda el último número que escribió el jugador. Empieza en `0` a propósito: como el secreto siempre está entre 1 y 10, el `0` nunca es correcto, y así el bucle se ejecuta al menos una vez.
+  - `totalIntentos`: cuenta cuántas veces ha intentado el jugador. Empieza en `0` porque todavía no ha jugado.
 
-// dentro de main
-while (!esCorrecto(intento, secreto)) {
-    System.out.print("Escribe un número del 1 al 10: ");
-    intento = teclado.nextInt();
-    vidas++;
-    if (!esCorrecto(intento, secreto)) {
-        darPista(intento, secreto);
-    }
-}
-System.out.println("¡Adivinaste, " + nombre + "! Lo lograste en " + vidas + " intentos.");
+Tu trabajo es completar dos retos. Pausa el video y hazlos con calma.
+
+### Reto 1: el método darPista
+
+Cuando el jugador falle, el juego debe ayudarlo comparando **su número con el número secreto**. Por ejemplo, si el secreto es 7 y el jugador escribió 5, el juego debe decirle que el secreto es mayor que 5, para que la próxima vez pruebe con un número más grande.
+
+Crea un método llamado `darPista` que:
+
+1. Reciba dos parámetros: el `intento` del jugador y el `secreto`.
+2. Si el intento es **menor** que el secreto, muestre "Pista: el número secreto es MAYOR que 5." (con el número que escribió el jugador).
+3. Si no, muestre "Pista: el número secreto es MENOR que 5.".
+
+Pista: no necesita devolver nada, solo mostrar un mensaje, así que su tipo es `void`.
+
+### Reto 2: el bucle del juego
+
+El juego debe seguir preguntando hasta que el jugador acierte. Antes de escribir código, piensa en lo que pasa en **cada vuelta** del juego:
+
+1. Le pedimos al jugador que escriba un número.
+2. Guardamos ese número en `intento`.
+3. Le sumamos 1 a `totalIntentos`.
+4. Si falló, le damos una pista con `darPista`.
+
+Y esto se repite **mientras no haya acertado**. Cuando por fin acierte, salimos del bucle y lo felicitamos.
+
+Una pista para escribir la condición del `while`:
+
+- **`!`**: el operador "no". Invierte una condición: si algo era `true` lo vuelve `false`, y al revés. Por ejemplo, `!esCorrecto(intento, secreto)` se lee "el intento **no** es correcto".
+
+### ¿Cómo sé si lo hice bien?
+
+Presiona **Run** y juega una partida. Si completaste los dos retos, la consola debería verse parecida a esto (los números cambian, porque el secreto es al azar):
+
+```
+¿Cómo te llamas? Ana
+¡Hola, Ana! Bienvenido al juego.
+Escribe un número del 1 al 10: 5
+Pista: el número secreto es MAYOR que 5.
+Escribe un número del 1 al 10: 8
+Pista: el número secreto es MENOR que 8.
+Escribe un número del 1 al 10: 7
+¡Adivinaste, Ana! Lo lograste en 3 intentos.
 ```
 
-- **`!`**: el operador "no". Invierte una condición: `!esCorrecto(...)` se lee "no es correcto".
-
-Entonces el `while` se lee: "mientras **no** sea correcto, sigue pidiendo números". Cada vez sumamos un intento y, si el jugador falla, le damos una pista. Fíjate en lo fácil que se lee `main` gracias a los métodos: casi parece una historia.
+Si te trabas, puedes comparar tu código con la solución en la carpeta `completed-examples/leccion-04` del repositorio de GitHub.
 
 ---
 
