@@ -52,7 +52,7 @@ Las lecciones están pensadas para verse en orden, porque cada una usa lo que ap
 ### Lección 4: Métodos y entrada/salida con Scanner (8 minutos)
 
 - **Descripción**: Crea bloques de código reutilizables (métodos), pide datos al usuario con `Scanner` y construye un juego de adivinanzas.
-- **Enlace**: []()
+- **Enlace**: [https://youtu.be/jyHUScuht7A](https://youtu.be/jyHUScuht7A)
 - **Conclusiones clave**: Un método es una mini receta con nombre: `public static void saludar(String nombre) { ... }`. Los parámetros son los ingredientes que recibe y `return` devuelve un resultado. `Scanner teclado = new Scanner(System.in);` lee lo que escribe el usuario.
 - **Práctica**: [Replit](https://replit.com), [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). Código en [GitHub]().
 
