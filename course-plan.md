@@ -73,9 +73,9 @@ Las lecciones están pensadas para verse en orden, porque cada una usa lo que ap
 ### Lección 7: Proyecto final, Registro de Estudiantes (8 minutos)
 
 - **Descripción**: Junta todo lo aprendido en una aplicación orientada a objetos: registra a los estudiantes de un salón con sus notas, muestra quién aprobó, calcula el promedio y encuentra la nota más alta.
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=ENLACE-LECCION-7)
+- **Enlace**: [Ver video de la Lección 7](https://youtu.be/BycrSkRbOMo?si=TWlA441jrExa6h_9)
 - **Conclusiones clave**: Una clase `Estudiante` encapsulada, un array de objetos, un bucle para pedir datos con `Scanner` y otro para recorrerlos. Cada pieza del curso tiene su lugar en un programa real.
-- **Proyecto final**: [Replit](https://replit.com), [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). Código en [GitHub]().
+- **Proyecto final**: [Replit](https://replit.com), [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). Puedes probar y revisar tu código en el [Editor en JDoodle de Ariana](https://www.jdoodle.com/ga/aeyp-4te7-kuxs).
 
 ### Lección 8: Buenas prácticas, errores comunes y próximos pasos (5 minutos)
 
