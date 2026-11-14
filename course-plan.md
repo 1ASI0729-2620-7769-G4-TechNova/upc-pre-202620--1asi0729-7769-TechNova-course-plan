@@ -31,9 +31,9 @@ Las lecciones están pensadas para verse en orden, porque cada una usa lo que ap
 ### Lección 1: ¿Qué es programar? Java y tu primer programa (6 minutos)
 
 - **Descripción**: Descubre qué es un programa (una receta de instrucciones para la computadora), por qué Java es un gran lenguaje para empezar y escribe tu primer programa en un editor en línea.
-- **Enlace**: []()
+- **Enlace**: [Ver video de la Lección 1](https://youtu.be/4VmCG1dBwiA?si=I74ZaeWVD6B9Kk8p)
 - **Conclusiones clave**: Java se usa en apps Android, en videojuegos como Minecraft Java Edition y en sistemas de bancos y tiendas en línea. Todo programa en Java empieza en `main`, y `System.out.println("Hola");` muestra un mensaje en pantalla.
-- **Empieza a programar**: **¡Escoge el editor de codigo de tu preferencia!** [Replit](https://replit.com), [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). Puedes copiar el código desde [LinkGitHub]().
+- **Empieza a programar**: **¡Escoge el editor de código de tu preferencia!** [Replit](https://replit.com), [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). Puedes probar tu código directamente en el [Editor en JDoodle](https://www.jdoodle.com/ga/rmty-6cbk-xh2r).
 
 ### Lección 2: Variables, tipos de datos y operadores (8 minutos)
 
