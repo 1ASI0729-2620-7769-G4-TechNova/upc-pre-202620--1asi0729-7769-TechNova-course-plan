@@ -80,9 +80,9 @@ Las lecciones están pensadas para verse en orden, porque cada una usa lo que ap
 ### Lección 8: Buenas prácticas, errores comunes y próximos pasos (5 minutos)
 
 - **Descripción**: Aprende a escribir código ordenado, a leer los mensajes de error sin miedo y a resolver los errores típicos de principiantes con el reto "Caza errores". Termina con ideas para seguir aprendiendo.
-- **Enlace**: [n]()
+- **Enlace**: [Ver video de la Lección 8](https://youtu.be/EV34_t36eFY)
 - **Consejos clave**: Usa nombres claros (`notaFinal`, no `x`), indenta tu código y no olvides el `;`. Java distingue mayúsculas (`System`, no `system`), los textos se comparan con `.equals()` y no con `==`, y los arrays van de `0` a `length - 1`. Para seguir aprendiendo, visita la documentación oficial en [dev.java](https://dev.java/learn/).
-- **Reto Caza errores**: [Replit](https://replit.com), [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). Código en [GitHub]().
+- **Reto Caza errores**: [Replit](https://replit.com), [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). Puedes probar y revisar tu código en el [Editor en JDoodle](https://www.jdoodle.com/ia/384m-6h2k-jjsy).
 
 
 ## Recursos adicionales
