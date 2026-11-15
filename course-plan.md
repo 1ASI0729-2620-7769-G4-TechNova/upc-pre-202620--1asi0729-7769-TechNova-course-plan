@@ -38,7 +38,7 @@ Las lecciones están pensadas para verse en orden, porque cada una usa lo que ap
 ### Lección 2: Variables, tipos de datos y operadores (8 minutos)
 
 - **Descripción**: Aprende a guardar información en variables, como si fueran cajas con etiqueta, creando el perfil de un jugador de videojuegos, y haz cálculos con operadores.
-- **Enlace**: []()
+- **Enlace**: [https://youtu.be/D-fpOPq7beA](https://youtu.be/D-fpOPq7beA)
 - **Conclusiones clave**: `int` guarda números enteros, `double` números con decimales, `String` textos y `boolean` verdadero o falso. Se declara así: `int nivel = 7;`. Los operadores `+ - * / %` hacen cálculos, y `7 / 2` da `3` porque entre enteros no hay decimales.
 - **Práctica**: [Replit](https://replit.com), [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). Código en [GitHub]().
 
