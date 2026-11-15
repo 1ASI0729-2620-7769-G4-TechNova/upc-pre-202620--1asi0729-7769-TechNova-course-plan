@@ -45,7 +45,7 @@ Las lecciones están pensadas para verse en orden, porque cada una usa lo que ap
 ### Lección 3: Decisiones y bucles (9 minutos)
 
 - **Descripción**: Haz que tu programa tome decisiones con `if-else` (¿aprobaste o no?) y repita tareas con `for` y `while` (tablas de multiplicar y una cuenta regresiva).
-- **Enlace**: []()
+- **Enlace**: [https://youtu.be/Jmbb6ooKoFY](https://youtu.be/Jmbb6ooKoFY)
 - **Conclusiones clave**: `if (nota >= 11) { ... } else { ... }` elige un camino. `for (int i = 1; i <= 10; i++)` repite un número conocido de veces y `while (condicion)` repite mientras algo sea verdadero. Cuidado: si la condición nunca cambia, el bucle no termina nunca.
 - **Práctica**: [Replit](https://replit.com), [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). Código en [GitHub]().
 
