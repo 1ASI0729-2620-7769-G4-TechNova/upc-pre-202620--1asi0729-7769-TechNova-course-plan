@@ -59,7 +59,7 @@ Las lecciones están pensadas para verse en orden, porque cada una usa lo que ap
 ### Lección 5: Clases, objetos y constructores (8 minutos)
 
 - **Descripción**: Entra al mundo de la Programación Orientada a Objetos creando una mascota virtual: una clase con atributos (lo que tiene) y métodos (lo que hace).
-- **Enlace**: []()
+- **Enlace**: [https://youtu.be/ncXqEtAHJIM](https://youtu.be/ncXqEtAHJIM)
 - **Conclusiones clave**: La clase es el molde y el objeto es lo que fabricas con él: `class Mascota { String nombre; }` y `Mascota toby = new Mascota("Toby", "perro");`. El constructor prepara cada objeto nuevo y `this` significa "este objeto".
 - **Práctica**: [Replit](https://replit.com), [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). Código en [GitHub]().
 
