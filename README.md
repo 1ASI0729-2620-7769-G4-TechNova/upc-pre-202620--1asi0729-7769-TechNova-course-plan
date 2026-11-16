@@ -99,7 +99,7 @@ java-fundamentals-course-TechNova/
 
 ## Plan del curso
 
-Consulta el plan completo, con los enlaces a los videos de YouTube y a las prácticas de cada lección, en [course-plan.md]().
+Consulta el plan completo, con los enlaces a los videos de YouTube y a las prácticas de cada lección, en [course-plan.md](https://github.com/1ASI0729-2620-7769-G4-TechNova/upc-pre-202620--1asi0729-7769-TechNova-course-plan/blob/main/course-plan.md).
 
 ## Seguir aprendiendo
 

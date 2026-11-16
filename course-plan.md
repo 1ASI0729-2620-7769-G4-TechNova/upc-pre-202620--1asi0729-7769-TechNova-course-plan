@@ -20,7 +20,7 @@ Este curso de una hora introduce a estudiantes de secundaria a los fundamentos d
 
 > **Consejo para que todo funcione en cualquier editor**: cada ejercicio es un solo archivo llamado `Main.java`. Copia todo el código, pégalo en el editor reemplazando lo que haya, y presiona **Run**. Al final de cada lección encontrarás un enlace directo al ejercicio ya cargado en el editor y otro al mismo código en GitHub, por si quieres usar otro editor.
 
-**📂 Repositorio de código fuente**: []()
+**📂 Repositorio de código fuente**: [https://github.com/1ASI0729-2620-7769-G4-TechNova/upc-pre-202620--1asi0729-7769-TechNova-course-plan](https://github.com/1ASI0729-2620-7769-G4-TechNova/upc-pre-202620--1asi0729-7769-TechNova-course-plan)
 
 **Cómo aprovechar el curso**: mira cada video con el editor abierto en otra pestaña. Cuando aparezca el aviso **⏸ PAUSA Y PRACTICA**, detén el video, resuelve el reto y luego continúa para ver la solución. Equivocarte es parte de aprender: cada error es una pista.
 
@@ -31,7 +31,7 @@ Las lecciones están pensadas para verse en orden, porque cada una usa lo que ap
 ### Lección 1: ¿Qué es programar? Java y tu primer programa (6 minutos)
 
 - **Descripción**: Descubre qué es un programa (una receta de instrucciones para la computadora), por qué Java es un gran lenguaje para empezar y escribe tu primer programa en un editor en línea.
-- **Enlace**: [Ver video de la Lección 1](https://youtu.be/4VmCG1dBwiA?si=I74ZaeWVD6B9Kk8p)
+- **Enlace**: [https://youtu.be/4VmCG1dBwiA?si=I74ZaeWVD6B9Kk8p](https://youtu.be/4VmCG1dBwiA?si=I74ZaeWVD6B9Kk8p)
 - **Conclusiones clave**: Java se usa en apps Android, en videojuegos como Minecraft Java Edition y en sistemas de bancos y tiendas en línea. Todo programa en Java empieza en `main`, y `System.out.println("Hola");` muestra un mensaje en pantalla.
 - **Empieza a programar**: **¡Escoge el editor de código de tu preferencia!** [Replit](https://replit.com), [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). Puedes probar tu código directamente en el [Editor en JDoodle](https://www.jdoodle.com/ga/rmty-6cbk-xh2r).
 
@@ -73,21 +73,21 @@ Las lecciones están pensadas para verse en orden, porque cada una usa lo que ap
 ### Lección 7: Proyecto final, Registro de Estudiantes (8 minutos)
 
 - **Descripción**: Junta todo lo aprendido en una aplicación orientada a objetos: registra a los estudiantes de un salón con sus notas, muestra quién aprobó, calcula el promedio y encuentra la nota más alta.
-- **Enlace**: [Ver video de la Lección 7](https://youtu.be/BycrSkRbOMo?si=TWlA441jrExa6h_9)
+- **Enlace**: [https://youtu.be/BycrSkRbOMo?si=TWlA441jrExa6h_9](https://youtu.be/BycrSkRbOMo?si=TWlA441jrExa6h_9)
 - **Conclusiones clave**: Una clase `Estudiante` encapsulada, un array de objetos, un bucle para pedir datos con `Scanner` y otro para recorrerlos. Cada pieza del curso tiene su lugar en un programa real.
 - **Proyecto final**: [Replit](https://replit.com), [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). Puedes probar y revisar tu código en el [Editor en JDoodle de Ariana](https://www.jdoodle.com/ga/aeyp-4te7-kuxs).
 
 ### Lección 8: Buenas prácticas, errores comunes y próximos pasos (5 minutos)
 
 - **Descripción**: Aprende a escribir código ordenado, a leer los mensajes de error sin miedo y a resolver los errores típicos de principiantes con el reto "Caza errores". Termina con ideas para seguir aprendiendo.
-- **Enlace**: [Ver video de la Lección 8](https://youtu.be/EV34_t36eFY)
+- **Enlace**: [https://youtu.be/EV34_t36eFY](https://youtu.be/EV34_t36eFY)
 - **Consejos clave**: Usa nombres claros (`notaFinal`, no `x`), indenta tu código y no olvides el `;`. Java distingue mayúsculas (`System`, no `system`), los textos se comparan con `.equals()` y no con `==`, y los arrays van de `0` a `length - 1`. Para seguir aprendiendo, visita la documentación oficial en [dev.java](https://dev.java/learn/).
 - **Reto Caza errores**: [Replit](https://replit.com), [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). Puedes probar y revisar tu código en el [Editor en JDoodle](https://www.jdoodle.com/ia/384m-6h2k-jjsy).
 
 
 ## Recursos adicionales
 
-- **Código fuente completo**: [Repositorio de GitHub](). En la carpeta `starter-files` están los ejercicios para empezar, en `completed-examples` las soluciones y en `scripts` los guiones de cada video.
+- **Código fuente completo**: [Repositorio de GitHub](https://github.com/1ASI0729-2620-7769-G4-TechNova/upc-pre-202620--1asi0729-7769-TechNova-course-plan/blob/main/course-plan.md). En la carpeta `starter-files` están los ejercicios para empezar, en `completed-examples` las soluciones y en `scripts` los guiones de cada video.
 - **Todas las actividades prácticas**:
     - **Lección 1 – Hola, mundo**: escribe tu primer programa y dibuja una carita con texto.
     - **Lección 2 – Perfil de jugador**: guarda datos en variables y calcula niveles y promedios. 
