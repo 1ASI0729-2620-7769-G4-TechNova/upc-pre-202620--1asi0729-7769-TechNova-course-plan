@@ -66,7 +66,7 @@ Las lecciones están pensadas para verse en orden, porque cada una usa lo que ap
 ### Lección 6: Encapsulación, arrays y cadenas (8 minutos)
 
 - **Descripción**: Protege los datos de tus objetos con `private`, getters y setters, guarda varias mascotas en un array y juega con los métodos de los textos.
-- **Enlace**: []()
+- **Enlace**: [https://youtu.be/GXSpg324W1I](https://youtu.be/GXSpg324W1I)
 - **Conclusiones clave**: Encapsular es poner los datos bajo llave (`private`) y dar puertas controladas: `getEnergia()` para leer y `setEnergia(80)` para cambiar con validación. Un array guarda varios valores numerados desde 0: `String[] colores = {"rojo", "verde"};`. `texto.length()` y `texto.toUpperCase()` trabajan con cadenas.
 - **Práctica**: [Replit](https://replit.com), [JDoodle](https://www.jdoodle.com/online-java-compiler) u [OnlineGDB](https://www.onlinegdb.com/online_java_compiler). Código en [GitHub]().
 
